@@ -1,0 +1,1 @@
+python MultiClass_LogoRecognition_29072016_edge.py -i "C:/git/python-opencv/Data/MediaLogo/image/" -o "C:/git/python-opencv/Data/MediaLogo/result/edge/" -t "C:/git/python-opencv/Data/MediaLogo/template/" -r result.tsv -m cv2.TM_CCOEFF_NORMED -sn True -mt 0.50

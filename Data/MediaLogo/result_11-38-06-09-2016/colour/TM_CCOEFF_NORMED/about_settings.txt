@@ -1,0 +1,8 @@
+				s_w_template_lowerlimit = 0.01*w_img #0.03*w_img
+				s_w_template_higherlimit = 0.15*w_img #0.10*w_img
+				s_h_template_lowerlimit = 0.01*h_img #0.05*h_img
+				s_h_template_higherlimit = 0.35*h_img
+
+				# search only lower half of image
+				offset = 0.5
+				img_searchspace = img[int(round(offset*h_img)):h_img, 0:w_img]
